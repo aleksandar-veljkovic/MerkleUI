@@ -1,0 +1,114 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/aleksandarveljkovic/Research/ZK/ZKU/MerkleUI/merkle-ui/contracts/MerkleTree.sol": {
+      "lastModificationDate": 1652631521923,
+      "contentHash": "94936982feb77ea7a3fec00a29bfb7ed",
+      "sourceName": "contracts/MerkleTree.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Poseidon.sol",
+        "./verifier.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MerkleTree"
+      ]
+    },
+    "/Users/aleksandarveljkovic/Research/ZK/ZKU/MerkleUI/merkle-ui/contracts/Poseidon.sol": {
+      "lastModificationDate": 1652631521939,
+      "contentHash": "077baf916d39868ad6876d4665d00b9d",
+      "sourceName": "contracts/Poseidon.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PoseidonT3"
+      ]
+    },
+    "/Users/aleksandarveljkovic/Research/ZK/ZKU/MerkleUI/merkle-ui/contracts/verifier.sol": {
+      "lastModificationDate": 1652631521952,
+      "contentHash": "bf4ccb08eab6f9c47da925f10ee14a4d",
+      "sourceName": "contracts/verifier.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pairing",
+        "Verifier"
+      ]
+    }
+  }
+}
